@@ -1,0 +1,472 @@
+body{
+ font-family: "GOTHAM-BOLD";
+ font-weight: 500;
+}
+/* menu  */
+.menu-fixed
+{
+  position: fixed;
+  width:100%;
+  z-index: 999;
+}
+.menu-logo
+{
+  background-image: url(../img/logo-desktop1.svg);
+  width: 8.6em;
+  position: absolute;
+  left: 7.8%;
+  background-size: 100% 100%;
+  height: 8em;
+  background-color: white;
+  -webkit-box-shadow: 0.5px 0px 0.5px 0.5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0.5px 0px 0.5px 0.5px rgba(0,0,0,0.2);
+  box-shadow: 0.5px 0px 0.5px 0.5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+/* class modified bootstrap */
+ .navbar-menu-red {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  position: absolute;
+  left: 21%;
+}
+.active > a, .open > *
+{
+  background-color: #9c0921 !important;
+}
+.nav >li >a
+{
+  color: rgba(255, 255, 255, 0.65) !important;
+font-size: 12px;
+text-transform: uppercase;
+padding: 1.7em 1.3em 1.3em 1.3em;
+}
+.nav >li >a:hover
+{
+  background-color: #9c0921 !important;
+}
+.nav-red > .collapse, .nav-red > .nav-red-height, .nav-red-height>li,.nav-red-height>li>a, .navbar-header
+{
+  height: 60px !important;
+}
+.nav-red
+{
+  height: 60px;
+  background-color: #B20C27 !important;
+  color: #E3A6B0 !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+/*sections */
+.first-section
+{
+  position: relative;
+  margin-top: 60px;
+  background: #fff url(../img/first-section.svg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 400px;
+}
+.second-section
+{
+  min-height: 457px;
+  width: 100%;
+  background-color: #2b303d;
+}
+.third-section
+{
+  min-height: 408px;
+  width: 100%;
+  background: url(../img/first-section-image-two.svg) no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+}
+.separator-dark
+{
+  height: 42px;
+  background-color:  #2b303d;
+}
+.fourth-section
+{
+  background-color: #373b46;
+  min-height: 1011px;
+}
+.fifth-section
+{
+  background-color: #2b303d;
+  min-height: 591px;
+  padding-top: 45px;
+}
+.sixth-section
+{
+  background-color: #000000;
+  min-height: 906px;
+}
+.seventh-section
+{
+  padding-top: 15px;
+  min-height: 64px;
+  background-color: #232732;
+  text-align: center;
+}
+.footer-section
+{
+  padding-top: 20px;
+  text-align: center;
+  min-height: 84px;
+  background-color: #9f0d1f;
+}
+/* content of first and second section */
+.first-dercoSeguro
+{
+  color: white;
+height: 84px;
+margin-left: 19%;
+margin-top: 230px;
+width: 81%;
+background-color: rgba(178, 12, 39, 0.6);
+font-size: 31px;
+padding: 3% 5% 0% 5%;
+font-family: "Antic";
+font-weight: 900;
+}
+/*  content of second section */
+.title-second-section
+{
+  font-size: 30px;
+  color:white;
+  font-family: "Antic";
+  font-weight: 900;
+}
+.underline-red
+{
+  color: #b20c27;
+  background-color: #b20c27;
+  width: 19%;
+  height: 5px;
+  position: absolute;
+  margin-top: -6px;
+  margin-left: 1px;
+}
+.image-second-section{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.title-image-second-section
+{
+  color:white;
+  font-size: 20px;
+  font-family: "arial";
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-left: 3px;
+}
+.underline-red-image
+{
+  color: #b20c27;
+  background-color: #b20c27;
+  width: 27%;
+  height: 5px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 4px;
+}
+/* content of third section */
+.title-third-section
+{
+  width: 75%;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.7);
+  display: block;
+  padding: 25px 0% 25px 3%;
+}
+.title-third-section h3
+{
+  margin: 0;
+  font-size: 35px !important;
+  font-family: "arial";
+  font-size: normal;
+  color:white;
+}
+/* content of fourth section */
+.content-image-fourth-section
+{
+  margin-top: 70px;
+}
+.fourth-section>div >h3
+{
+  margin-top: 25px !important;
+  text-align: center;
+  color:white;
+}
+.fourth-section>div >h3.finish-fourth-section
+{
+  margin-top: 50px !important;
+  text-align: center;
+  color:#b20c27;
+  font-family: "Antic";
+}
+.content-image-fourth-section >img
+{
+  display: block;
+  margin:0 auto;
+}
+.content-image-fourth-section >p
+{
+  color:white;
+  text-align: center;
+  font-size: 20px;
+  font-family: "arial";
+  font-weight: 700;
+}
+.content-image-fourth-section>span
+{
+  color:#b20c27;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.content-button-fourth-section
+{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+/* contents of fifth section */
+.fifth-section img
+{
+  width:70%;
+  display: block;
+  margin:0 auto;
+}
+/* contents of sixth section */
+.sixth-section>div> p
+{
+  color: white;
+  font-family: "arial";
+  margin-top:35px;
+  font-size: 16px;
+    font-weight: 500;
+}
+.sixth-section>div > p > span
+{
+  color:#b20c27;
+}
+.sixth-section>div > p > span.bold
+{
+  color: white !important;
+  font-weight:900;
+}
+/* contents seventh section and footer section */
+.item-contacts
+{
+  display: inline-block;
+  margin-left: 1%;
+}
+.item-contacts> p
+{
+  color: white;
+  display: inline-block;
+  font-family: "arial";
+  font-size: 13px;
+}
+.item-footer, .item-contacts >img,  .item-footer img
+{
+  display: inline-block;
+}
+.item-contacts >img.phone2
+{
+  height: 50px;
+}
+.item-footer p
+{
+  color: white;
+  display: inline-block;
+  font-family: "arial";
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.content-phone2
+{
+  position: relative;
+  width: 167px;
+  text-align: initial;
+}
+.content-phone2 >p
+{
+  position: absolute;
+  width: 121px;
+  top: 15px;
+  left: 34px;
+}
+.phone2
+{
+  height: 47px;
+  width: 41px;
+}
+.item-footer span
+{
+  color: white !important;
+  display: inline-block;
+  font-family: "arial";
+  font-size: 24px;
+}
+.red-social
+{
+  text-align: right;
+  width: 241px;
+}
+.title-social-footer
+{
+  font-size: 12px !important;
+  margin-left: -90px;
+position: absolute;
+top: 38px;
+}
+.item-footer >img.logo-footer
+{
+  width: 155px;
+  height: 25px;
+}
+/* fonts  */
+@font-face {
+  font-family: "GOTHAM-BOLD";
+  src:  url('../fonts/Gotham-Fonts-Family/GothamBoldr.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Fonts-Family/GothamBold.woff2') format('woff'),
+        url('../fonts/Gotham-Fonts-Family/GothamBold.ttf') format('ttf'),
+        url();
+  font-style: normal;
+  font-weight: normal;
+ }
+/* mediasQuery */
+
+@media (max-width: 1200px) {
+
+  .menu-logo
+  {
+    background-image: url(../img/logo-horizontal.svg);
+    width: 14.6em;
+    position: absolute;
+    left: 1em;
+    background-size: 100% 100%;
+    height: 2.0em;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    top: 1em;
+  }
+
+/*  class modified bootstrap */
+  .navbar-default .navbar-toggle
+  {
+    border-color: transparent;
+    border:none;
+    background-color: transparent;
+  }
+  .navbar-toggle
+  {
+    background-color: transparent !important;
+    margin-top: 13px !important;
+  }
+  .navbar-default .navbar-toggle:hover
+  {
+    background-color: transparent;
+  }
+  .navbar-default .navbar-toggle .icon-bar
+  {
+    color: white;
+    background-color: white;
+    height: 3px;
+  }
+  #navbarCollapse
+  {
+    padding: 0 !important;
+  }
+  .navbar-menu-red
+  {
+    display: block;
+    float: none;
+    vertical-align: top;
+    position: relative;
+    left: 0%;
+  }
+  .nav-red, .nav-red > .collapse, .nav-red > .nav-red-height, .nav-red-height>li,.nav-red-height>li>a
+  {
+    height: auto !important;
+  }
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      text-align: center
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+  #botton-budget
+  {
+    display: none;
+  }
+}
+@media (max-width:992px) {
+    .first-dercoSeguro
+    {
+      margin-left: 0 !important;
+      margin-top: 10px!important;
+      width: 80%;
+      background-color:  rgba(178, 12, 39, 1);
+    }
+}
+@media (max-width:767px) {
+    .first-section, .first-section > section
+    {
+      padding: 0;
+    }
+    .first-dercoSeguro
+    {
+      margin-left: 0 !important;
+      margin-top: 20px!important;
+      width: 100%;
+      background-color:  rgba(178, 12, 39, 1);
+    }
+    .title-third-section
+    {
+      width: 90% !important;
+    }
+    .content-phone2, .red-social
+    {
+      width: auto !important;
+    }
+}

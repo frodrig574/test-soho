@@ -1,0 +1,70 @@
+/*  prueba*/
+.content-select-material
+{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.material-design-select
+{
+  font-weight: bold;
+color: white;
+border-bottom: 1px solid;
+width: 95%;
+padding: 0;
+margin-top: 50px;
+}
+
+.material-design-select >li
+{
+  list-style: none;
+  min-height: 20px;
+  cursor: pointer;
+}
+.arrow-down{
+  position: absolute;
+right: 4%;
+color: #b20c27;
+background: url("../img/arrow-down.png") no-repeat;
+background-size: 100% 100%;
+height: 25px;
+width: 35px;
+}
+
+.material-design-select >li >ul
+{
+  max-height: 150px;
+  overflow-x: hidden;
+  padding: 0;
+  list-style: none;
+  display: none;
+}
+.material-design-select >li >ul >li
+{
+  background-color: white;
+  padding: 2% 0% 0% 2%;
+  color: black;
+  font-family: arial;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  height: 30px;
+  position: relative;
+}
+.material-design-select >li>ul >li:hover
+{
+  background-color: #d4d4d4;
+}
+.material-design-select >li:first-child
+{
+  margin-top: -20px;
+}
+.material-design-select >li>div
+{
+  position: absolute;
+}
+.show-menu
+{
+  display: block !important;
+}
+/* aqui termina */

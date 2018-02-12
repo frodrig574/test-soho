@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="fav.ico">
+    <title>test</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Antic' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/material-design-person.css">
+    <link rel="stylesheet" href="css/button_of_budget.css">
+    <link rel="stylesheet" href="css/select_material.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/plugins/jquery.button_of_budget.js"></script>
+    <script type="text/javascript" src="./js/plugins/jquery.select_material.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="row menu-fixed">
+          <div class="col-sm-12" style="padding:0px;">
+            <nav class="navbar navbar-default nav-red">
+                <div class="navbar-header">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#">
+                      <i class="menu-logo"></i>
+                    </a>
+                </div>
+                <div id="navbarCollapse" class="collapse navbar-collapse nav-red-height">
+                    <ul class="nav navbar-nav nav-red-height navbar-menu-red">
+                        <li><a href="#">Modelos</a></li>
+                        <li><a href="#">concesionarios</a></li>
+                        <li><a href="#">llamado a revisión</a></li>
+                        <li><a href="#">servicios</a></li>
+                        <li><a href="#">noticias</a></li>
+                    </ul>
+                    <ul id="botton-budget">  </ul>
+                </div>
+            </nav>
+          </div>
+        </div>
+        <div class="row">
+          <section class="col-md-12 col-sm-12 col-xs-12 first-section">
+            <section class="col-md-7">
+              <div class="first-dercoSeguro">DercoSeguros</div>
+            </section>
+            <section class="col-md-5">
+                <div class="material-design-container-form">
+                  <form action="" class="formulario" method="get">
+                    <div class="material-design-input-group">
+                      <label for="nombre">Nombre</label>
+                      <input type="text" id="nombre" name="nombre">
+                    </div>
+                    <div class="material-design-input-group">
+                      <label for="apellido">Apellido</label>
+                      <input type="text" id="apellido" name="apellido">
+                    </div>
+                    <div class="material-design-input-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email">
+                    </div>
+                    <div class="material-design-input-group">
+                      <label for="celular">Celular <span> 9 dígitos</span></label>
+                      <input type="text" id="celular" name="celular">
+                    </div>
+                    <div class="material-design-input-group">
+                      <label for="rut">Rut</label>
+                      <input type="text" id="rut" name="rut">
+                    </div>
+                    <div class="material-design-input-group">
+                      <label for="concesionarios" class="select-label">Concesionarios en que deseas ser atendido</label>
+                      <select id="concesionarios">
+                        <option value="1">prueba1</option>
+                        <option value="2">prueba2</option>
+                        <option value="3">prueba3</option>
+                      </select>
+                    </div>
+                    <div class="material-design-input-group-submit">
+                      <input type="submit" class="mat-button1-person" id="btn-submit" value="cotiza tu poliza">
+                    </div>
+                  </form>
+                </div>
+            </section>
+          </section>
+          <section class="col-md-12 col-sm-12 col-xs-12 second-section">
+            <section class="col-md-7">
+              <div class="col-md-offset-2 col-md-10">
+                <h3 class="title-second-section">Protegemos tu auto</h3>
+                <h3 class="title-second-section">desde la salida del concesionario</h3>
+                <div class="underline-red"></div>
+              </div>
+              <div class="col-md-offset-2 col-md-5">
+                <img src="./img/tranquilidad.png" class="image-second-section">
+                <p class="title-image-second-section">Tranquilidad en caso</p>
+                <p class="title-image-second-section">de accidente o siniestro</p>
+                <div class="underline-red-image"></div>
+              </div>
+              <div class="col-md-5">
+                <img src="./img/asesoria.png" class="image-second-section">
+                <p class="title-image-second-section">Asesoría profesional</p>
+                <p class="title-image-second-section">de primer nivel</p>
+                <div class="underline-red-image"></div>
+              </div>
+            </section>
+            <section class="col-md-5" style="height:50px;">
+                <!-- space of the formulary of up section  -->
+            </section>
+          </section>
+          <section class="col-md-12 col-sm-12 col-xs-12 third-section">
+            <div class="title-third-section">
+              <h3>Estamos presentes en los concesionarios<h3>
+              <h3>de toda la Red DercoCenter<h3>
+            </div>
+          </section>
+          <section class="col-md-12 col-sm-12 col-xs-12 separator-dark"></section>
+          <section class="col-md-12 col-sm-12 col-xs-12 fourth-section">
+            <div class="col-md-offset-1 col-md-11 col-sm-offset-1 col-sm-11 col-xs-12">
+              <h3>¿Cúales son los beneficios del Seguro Derco?</h3>
+              <div class="col-md-12 col-sm-12">
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/reparacion.png" />
+                  <p>Reparación en talleres</p>
+                  <p>de la Red DercoCenter</p>
+                </div>
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/repuestos.png" />
+                  <p>Repuestos</p>
+                  <p>originales</p>
+                </div>
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/asistencia.png" />
+                  <p>Asistencia en</p>
+                  <p>ruta 24Hrs</p>
+                </div>
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/reposicion.png" />
+                  <p>Reposición de auto</p>
+                  <p>nuevo hasta 2 años</p>
+                </div>
+              </div>
+              <div class="col-md-12  col-sm-12">
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/asegurado.png" />
+                  <p>Automóvil asegurado</p>
+                  <p>al momento de la compra</p>
+                </div>
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/conductor.png" />
+                  <p>Conductor de reemplazo</p>
+                  <p>hasta por 6 meses</p>
+                </div>
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/auto.png" />
+                  <p>Auto de reemplazo</p>
+                  <p>hasta por 30 días</p>
+                  <span>(Siniestro parcial o perdida total)</span>
+                </div>
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/deducible.png" />
+                  <p>Deducible</p>
+                </div>
+              </div>
+              <div class="col-md-12  col-sm-12">
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/copago.png" />
+                  <p>Primeros 5 días </p>
+                  <p>sin copago</p>
+                </div>
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/copago1.png" />
+                  <p>Copago de $4.000</p>
+                  <p>desde el día 6 al 10</p>
+                </div>
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/copago2.png" />
+                  <p>Copago de $8.000</p>
+                  <p>desde el día 11 al 30</p>
+                </div>
+                <div class="content-image-fourth-section col-md-3 col-sm-3 col-xs-12">
+                  <img src="./img/uso-comercial.png" />
+                  <p>Vehículo de</p>
+                  <p>uso comercial</p>
+                </div>
+              </div>
+              <h3 class="finish-fourth-section col-md-12 col-sm-12 col-xs-12">¡Protege a tu auto con un producto que te seguirá a donde vayas!</h3>
+              <div class="col-md-12 col-sm-12 col-xs-12 content-button-fourth-section">
+                <button type="button" name="button" class="mat-button1-person">cotiza tu poliza</button>
+              </div>
+            </div>
+          </section>
+          <section class="col-md-12 col-sm-12 fifth-section hidden-xs hidden-sm">
+            <img src="./img/caso-siniestro.png" alt="">
+          </section>
+          <section class="col-md-12 col-sm-12 col-xs-12 sixth-section">
+            <div class="col-md-offset-2 col-md-8">
+              <p><span>* </span> Descuento sujeto a ventas con financiamiento intermediado a través de Amicar previo aprobación y evaluación de antecedentes comerciales. Más información,consulte a ejecutivo Amicar en el punto de venta.</p>
+              <p><span>** </span> Precios incluyen IVA, Bono Marca y Bono Amicar, precios no incluyen fletes a regiones. Descuentos y Bonos no aplican en Zona Franca. Los precios y especificaciones indicados son referenciales y pueden contener errores de digitación o de sistemas. Consulte a su ejecutivo por los precios vigentes al momento de efectuar su compra.</p>
+              <p><span>* </span> Bonos y precios válidos hasta el 17 de diciembre de 2017. Precios incluyen IVA. No acumulable con otras promociones. No incluye flete a regiones. Promoción no válida en zona franca</p>
+              <p><span>** </span> Cuota calculada con opción inteligente solo aplica a modelos señalados en www.dercocenter.cl. El valor cuota incluye seguro de desgravamen y gastos operacionales, para mayor información consulte a su ejecutivo AMICAR en el punto de venta. Crédito sujero a confirmación de antecedentes comerciales y financieros del cliente por parte de las instituciones financieras que otorgan el crédito.</p>
+              <p><span>*** </span> Costo Anual Equivalente.</p>
+              <p><span>**** </span> Costo total del crédito.</p>
+              <p><span>***** </span> Valor futuro mínimo garantizado</p>
+              <p><span>**** </span> Consumo vehicular de ciudad, valor obtenido en mediciones de laboratorio según ensayo de la comunidad Europea, homologadas en el MTT, más información en <span>www.consumovehicular.cl</span></p>
+              <p><span class="bold">Legal Renaulr: </span> Aplicable a modelos Symbol ZEN e INTENS Precio final incluye bono por colores disponibles (café visón, azul náutico, y azul cósmico).</p>
+              <p><span class="bold">Legal Haval: </span> Precio unidades especiales corresponden a unidades 2017 en las suguientes versiones: Haval H6 Sport 4x2 Active AT (stock disponible: 2 unidades) y Haval H6 Sport 4x2 Elitee AT (stock disponible: 2 unidades). Precios validos hasta agotar stock.</p>
+            </div>
+          </section>
+          <section class="col-md-12 col-sm-12 col-xs-12 seventh-section">
+            <div class="item-contacts">
+              <img src="./img/calendario.png" />
+              <p  class="hidden-xs"> Agendar Servicio Técnico</p>
+            </div>
+            <div class="item-contacts">
+              <img src="./img/market.png" />
+              <p class="hidden-xs"> Sucursales</p>
+            </div>
+            <div class="item-contacts">
+              <img src="./img/phone1.png" />
+              <p class="hidden-xs"> 600 600 0080</p>
+            </div>
+          </section>
+          <section class="col-md-12 col-sm-12 col-xs-12 footer-section">
+            <div class="item-footer">
+                <img src="./img/logo-horizontal.svg" class="logo-footer hidden-xs" alt="">
+            </div>
+            <div class="item-footer content-phone2">
+                <img src="./img/phone2.png" class="phone2" alt="">
+                <p class="hidden-xs">600 600 0080</p>
+            </div>
+            <div class="item-footer hidden-xs"><span>.</span> </div>
+            <div class="item-footer red-social">
+                <p class="title-social-footer hidden-xs">Encuéntranos en </p>
+                <img src="./img/facebook.png" alt="">
+                <img src="./img/twitter.png" alt="">
+                <img src="./img/youtube.png" alt="">
+            </div>
+          </section>
+        </div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+.material-design-container-form
+{
+  width: 80%;
+  display: block;
+  padding: 35px 0% 0% 5%;
+  margin: 35px 0px 35px 0px;
+  background-color: #2b303e;
+  border: 1px solid #979797;
+  position: absolute;
+  z-index: 1;
+}
+.material-design-input-group
+{
+  width: 100%;
+  padding: 37px 0px 40px 0px;
+  display: block;
+  position: relative;
+}
+.material-design-input-group-submit
+{
+  width: 100%;
+  padding: 40px 0% 40px 0%;
+  display: block;
+  position: relative;
+}
+.material-design-input-group > label
+{
+  position: absolute;
+  margin-top: 6px;
+  color: #979797;
+  font-size: 16px;
+  z-index: 0;
+  transition:0.3s;
+}
+.material-design-input-group > label > span
+{
+  color: #747477;
+  font-size: 13px;
+}
+.material-design-input-group > input[type=text], .material-design-input-group > input[type=password], .material-design-input-group > input[type=email]
+{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #979797;
+  position: absolute;
+  width: 95%;
+  height: 40px;
+  z-index: 1;
+  font-size: 16px;
+  color:#979797;
+}
+.material-design-input-group >label.select-label
+{
+  color:#979797;
+  font-family: "Arial";
+  font-weight: 500;
+  position: relative;
+  display: block;
+}
+.mat-button1-person
+{
+  margin-top: 18px;
+  padding: 20px 0% 20px 0%;
+  color: white;
+  background-color: #e30f24;
+  text-transform: uppercase;
+  font-family: "Arial";
+  font-weight: 500;
+  font-size: : 16px;
+  border: none;
+  border-radius: 4px;
+  width: 74%;
+  max-width: 305px;
+}
+.mat-button1-person:hover
+{
+  background-color:#d82e3f;
+}
+
+/* classes for animations */
+
+.label-focus
+{
+  margin-top: -15px !important;
+  font-size: 12px  !important;
+}
+
+/* media query */
+@media (max-width:992px) {
+  .material-design-container-form
+  {
+    margin-top: 0px !important;
+    position: relative !important;
+  }
+}
+@media (max-width:767px) {
+  .material-design-container-form
+  {
+    width: 100% !important;
+    margin-top: 0px !important;
+    position: relative !important;
+  }
+}
